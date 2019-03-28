@@ -1,0 +1,72 @@
+:root {
+  --mainOrange: #b16705;
+  --lightOrange: #d87d06;
+  --mainWhite: #f4f1ed;
+  --mainDark: #232528;
+  --mainGray: #707070;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Open Sans" sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Open Sans" sans-serif !important;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.btn-black {
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.text-orange {
+  color: var(--mainOrange);
+}
+.text-bright {
+  color: var(--lightOrange);
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var (--mainDark);
+  border-radius: 0px !important;
+  border-color: 0.1rem var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-item {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.text-title a {
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.text-title a:hover {
+  color: var(--mainWhite);
+  font-weight: bold;
+}
