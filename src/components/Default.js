@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { ButtonContainer } from "./Buttons";
 class Default extends Component {
   render() {
     return (
@@ -17,6 +19,10 @@ class Default extends Component {
               </span>{" "}
               was not found
             </h3>
+
+            <Link to="/">
+              <ButtonContainer>Back To Home</ButtonContainer>
+            </Link>
           </div>
         </div>
       </React.Fragment>
