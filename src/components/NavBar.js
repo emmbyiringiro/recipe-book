@@ -12,7 +12,13 @@ export default class NavBar extends Component {
     return (
       <NavWraper className="navbar nav-expand-sm  px-sm-5">
         <Link to="/">
-          <img src={Logo} alt="Logo" className="navbar-brand" />
+          <img
+            src={Logo}
+            alt="Logo"
+            className="navbar-brand img-fluid  "
+            type="image/svg+xml"
+            width="150"
+          />
         </Link>
 
         <ul className="navbar-nav mx-auto align-items-center px-5">
