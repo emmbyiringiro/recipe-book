@@ -15,15 +15,13 @@ class Cart extends Component {
           {value => {
             const { cart } = value;
 
-            console.log(cart.length);
-
             if (cart.length > 0) {
               return (
                 <React.Fragment>
                   <Title title="Your Cart" />
                   <CartColumns />
                   <CartList value={value} />
-                  <CartTotals value={value} />
+                  <CartTotals value={value} history={this.props.history} />
                 </React.Fragment>
               );
             } else {
