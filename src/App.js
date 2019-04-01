@@ -22,8 +22,8 @@ class App extends Component {
           <Route path="/details" component={Details} />
           <Route component={Default} />
         </Switch>
-        <Modal />
         <Footer />
+        <Modal />
       </React.Fragment>
     );
   }
