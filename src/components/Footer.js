@@ -9,7 +9,7 @@ class Footer extends Component {
     return (
       <FooterWraper>
         <div className="row">
-          <div className="col-10 mx-auto text-capitalize py-3 text-center ">
+          <div className="col-10 mx-auto  py-3 text-center ">
             Served with{" "}
             <span className="text-bright">
               <FontAwesomeIcon icon={faHeart} />
