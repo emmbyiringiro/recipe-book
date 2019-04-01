@@ -26,3 +26,10 @@ export const NavWraper = styled.nav`
     font-size: 1.4rem;
   }
 `;
+
+export const FooterWraper = styled.div`
+  background: var(--mainDark);
+  color:  #f4f1ed;
+  font-size:1.2rem;
+  }
+`;

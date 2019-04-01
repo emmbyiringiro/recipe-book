@@ -10,6 +10,7 @@ import Cart from "./components/cart/";
 import Details from "./components/Details";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
 class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
+        <Footer />
       </React.Fragment>
     );
   }
