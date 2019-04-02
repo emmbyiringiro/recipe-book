@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { RecipeConsumer } from "./../context";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Buttons";
+import IngredientList from "./../components/ingredients/IngredientList";
 
 class Details extends Component {
   render() {
@@ -43,13 +44,7 @@ class Details extends Component {
                     <p> {description}</p>
                     <h3> Ingredients</h3>
                     <div>
-                      {ingredients.map(ingredient => {
-                        return (
-                          <div className=" text-justify p-2">
-                            {ingredient} <ButtonContainer>-</ButtonContainer>
-                          </div>
-                        );
-                      })}
+                      <IngredientList ingredients={[...ingredients]} />
                     </div>
                     {/* End Recipe*/}
                     <div className="container p-2">

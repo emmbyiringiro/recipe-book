@@ -14,7 +14,8 @@ class RecipeProvider extends Component {
     cartTotal: 0,
     cartTax: 0,
     modalOpen: false,
-    modalRecipe: recipesStarter
+    modalRecipe: recipesStarter,
+    ingredients: recipesStarter.ingredients
   };
 
   componentDidMount() {
